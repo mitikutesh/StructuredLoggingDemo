@@ -22,6 +22,11 @@ namespace StructuredLoggingDemo.Pages
             var test = 11;
             _logger.LogInformation("You are in index page. {iTest}",test);
 
+            _logger.LogError("Shit happend.");
+
+            _logger.LogDebug("What is going on.");
+
+
         }
     }
 }
